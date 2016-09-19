@@ -1,0 +1,19 @@
+#include "Vector3.h"
+
+
+static Vector3 Vector3::plus (Vector3 vec1, Vector3 vec2) {
+  return Vector3 (vec1.x+vec2.x,vec1.y+vec2.y,vec2.z+vec2.z);
+  
+}
+static Vector3 Vector3::minus (Vector3 vec1, Vector3 vec2) {
+  return Vector3 (vec1.x-vec2.x,vec1.y-vec2.y,vec.z-vec2.z);
+  
+}
+static Vector3 Vector3::times (Vector3 vec1, float k) {
+  return Vector3 (vec1.x*k,vec1.y*k,vec1.z*k);
+  
+}
+static Vector3 Vector3::dot (Vector3 vec1, Vector3 vec2) {
+  return Vector3 (vec1.x*vec2.x,vec1.y*vec2.y,vec.z*vec2.z);
+  
+}

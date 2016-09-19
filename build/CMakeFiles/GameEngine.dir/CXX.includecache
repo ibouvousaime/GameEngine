@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ibouvousaime/projects/GameEngine/src/core/mathutils.hpp
+cmath
+-
+
+/home/ibouvousaime/projects/GameEngine/src/core/meshutils.hpp
+mathutils.hpp
+/home/ibouvousaime/projects/GameEngine/src/core/mathutils.hpp
+vector
+-
+
+/home/ibouvousaime/projects/GameEngine/src/main.cpp
+GLFW/glfw3.h
+-
+core/meshutils.hpp
+/home/ibouvousaime/projects/GameEngine/src/core/meshutils.hpp
+

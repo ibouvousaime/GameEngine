@@ -1,0 +1,5 @@
+{
+
+  "gccIncludePaths": ".,./include,./path",
+
+}
